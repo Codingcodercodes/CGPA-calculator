@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SGPA to CGPA Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="purple">
+  <div class="top-bar">
+    <select id="gradingScale" onchange="updateInputType()">
+      <option value="india" selected>India (10 scale)</option>
+      <option value="usa">USA (4 scale)</option>
+      <option value="canada">Canada (4.3 scale)</option>
+      <option value="uk">UK (100%)</option>
+    </select>
+
+    <select id="themeSwitch" onchange="changeTheme()" title="Change Theme">
+      <option value="purple" selected>💜 Purple</option>
+      <option value="dark">🌙 Dark</option>
+      <option value="light">☀️ Light</option>
+      <option value="sunset">🌇 Sunset</option>
+    </select>
+  </div>
+
+  <h1>SGPA to CGPA Calculator</h1>
+  <div class="calculator-container">
+    <div id="semesters"></div>
+    <div class="button-group">
+      <button onclick="addSemester()">+ Add Semester</button>
+      <button onclick="calculateCGPA()">Calculate CGPA</button>
+    </div>
+    <div class="result" id="result"></div>
+    <div class="quote" id="quote" style="display: none;"></div>
+    <canvas id="progressChart" height="150"></canvas>
+    <div class="explanation" id="explanation" style="display: none;">
+      <strong>How SGPA and CGPA are Calculated:</strong><br><br>
+      <strong>SGPA:</strong> The SGPA is the weighted average of grade points obtained in all subjects of a semester.<br>
+      <strong>SGPA = (Σ (Credit × Grade Point)) / Σ (Credits)</strong> <br>
+      <strong>CGPA:</strong> The CGPA is the average of SGPAs across all semesters completed.<br>
+      <strong>CGPA = (SGPA₁ + SGPA₂ + ... + SGPAₙ) / n</strong> <br>
+      <strong>Percentage:</strong> Multiply CGPA by <code>9.5</code> (India only).
+    </div>
+  </div>
+
+  <div class="modal" id="errorModal">
+    <div class="modal-content">
+      <h2>Invalid Input ⚠️</h2>
+      <p id="errorMessage">Please check your grade value and grading system.</p>
+      <button onclick="closeModal()">Okay</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
