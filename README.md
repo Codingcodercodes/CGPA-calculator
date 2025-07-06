@@ -36,12 +36,12 @@ A sleek, animated, and responsive web application that helps students convert th
 ---
 
 ## 📁 Project Structure
-  cgpa-calculator/
-│
-├── index.html # Main HTML file
-├── styles.css # All styling and animations
-├── script.js # Core logic and chart rendering
-└── README.md # You're here
+cgpa-calculator/
+ │
+ ├── index.html # Main HTML file
+ ├── styles.css # All styling and animations
+ ├── script.js # Core logic and chart rendering
+ └── README.md # You're here
 
 
 
