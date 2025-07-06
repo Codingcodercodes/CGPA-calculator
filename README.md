@@ -30,6 +30,10 @@ A sleek, animated, and responsive web application that helps students convert th
 - Open **index.html** in your browser.
 
 ---
+
+## Live link: https://sgpa-to-cgpa-calculator.netlify.app/
+
+---
 ## 🚀 How to Use
 
 1. **Select a grading system** from the dropdown (e.g., India, USA, etc.)
