@@ -23,7 +23,7 @@ A sleek, animated, and responsive web application that helps students convert th
 
 ---
 
-##How to Run Locally
+## How to Run Locally
 
 - Clone the repo:
 - git clone https://github.com/Codingcodercodes/CGPA-calculator.git
