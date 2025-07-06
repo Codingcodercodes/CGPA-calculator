@@ -23,10 +23,11 @@ A sleek, animated, and responsive web application that helps students convert th
 
 ---
 
-How to Run Locally
-Clone the repo:
-git clone https://github.com/Codingcodercodes/CGPA-calculator.git
-Open index.html in your browser.
+##How to Run Locally
+
+- Clone the repo:
+- git clone https://github.com/Codingcodercodes/CGPA-calculator.git
+- Open **index.html** in your browser.
 
 ---
 ## 🚀 How to Use
@@ -44,8 +45,7 @@ Open index.html in your browser.
 ## 📁 Project Structure
 ![image](https://github.com/user-attachments/assets/4c575fa8-5cf8-48a2-ae4f-ed23d5fff269)
 
-🙌 Credits
+
 Made with 💜 by Charmi Reddy P
-Using Chart.js
 
 
