@@ -26,7 +26,6 @@ A sleek, animated, and responsive web application that helps students convert th
 ## 📸 Demo
 
 > [Live Demo Here](https://Codingcodercods.github.io/cgpa-calculator/)  
-> *(Replace with your actual deployed link)*
 
 ---
 
