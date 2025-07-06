@@ -23,12 +23,6 @@ A sleek, animated, and responsive web application that helps students convert th
 
 ---
 
-## 📸 Demo
-
-> [Live Demo Here](https://Codingcodercods.github.io/cgpa-calculator/)  
-
----
-
 ## 🚀 How to Use
 
 1. **Select a grading system** from the dropdown (e.g., India, USA, etc.)
